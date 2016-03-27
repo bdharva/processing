@@ -1,0 +1,379 @@
+{
+	"listens" : [
+		{
+			"date" : "2016-03-11",
+			"startTime" : "14:25",
+			"endTime" : "15:07",
+			"podcast" : "Adam Carolla Show",
+			"device" : "iPhone",
+			"mode" : "Headphones",
+			"activity" : "Working",
+			"location" : "Home"
+		},
+		{
+			"date" : "2016-03-11",
+			"startTime" : "15:07",
+			"endTime" : "15:37",
+			"podcast" : "Traction",
+			"device" : "iPhone",
+			"mode" : "Headphones",
+			"activity" : "Working",
+			"location" : "Home"
+		},
+		{
+			"date" : "2016-03-11",
+			"startTime" : "15:37",
+			"endTime" : "16:02",
+			"podcast" : "Reply All",
+			"device" : "iPhone",
+			"mode" : "Headphones",
+			"activity" : "Working",
+			"location" : "Home"
+		},
+		{
+			"date" : "2016-03-11",
+			"startTime" : "16:02",
+			"endTime" : "16:39",
+			"podcast" : "Serial",
+			"device" : "iPhone",
+			"mode" : "Headphones",
+			"activity" : "Working",
+			"location" : "Home"
+		},
+		{
+			"date" : "2016-03-11",
+			"startTime" : "16:39",
+			"endTime" : "17:17",
+			"podcast" : "Serial",
+			"device" : "iPhone",
+			"mode" : "Headphones",
+			"activity" : "Working",
+			"location" : "Home"
+		},
+		{
+			"date" : "2016-03-11",
+			"startTime" : "17:41",
+			"endTime" : "18:14",
+			"podcast" : "Radiolab",
+			"device" : "iPhone",
+			"mode" : "Headphones",
+			"activity" : "Working",
+			"location" : "Home"
+		},
+		{
+			"date" : "2016-03-11",
+			"startTime" : "21:10",
+			"endTime" : "21:56",
+			"podcast" : "Freakonomics",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Local Driving"
+		},
+		{
+			"date" : "2016-03-12",
+			"startTime" : "0:30",
+			"endTime" : "1:06",
+			"podcast" : "What's the Point",
+			"device" : "Computer",
+			"mode" : "Headphones",
+			"activity" : "Working",
+			"location" : "Home"
+		},
+		{
+			"date" : "2016-03-12",
+			"startTime" : "1:06",
+			"endTime" : "2:54",
+			"podcast" : "Adam Carolla Show",
+			"device" : "Computer",
+			"mode" : "Headphones",
+			"activity" : "Working",
+			"location" : "Home"
+		},
+		{
+			"date" : "2016-03-12",
+			"startTime" : "2:54",
+			"endTime" : "3:27",
+			"podcast" : "Reply All",
+			"device" : "Computer",
+			"mode" : "Headphones",
+			"activity" : "Working",
+			"location" : "Home"
+		},
+		{
+			"date" : "2016-03-12",
+			"startTime" : "14:48",
+			"endTime" : "15:10",
+			"podcast" : "99% Invisible",
+			"device" : "Computer",
+			"mode" : "Headphones",
+			"activity" : "Driving",
+			"location" : "Local Driving"
+		},
+		{
+			"date" : "2016-03-12",
+			"startTime" : "15:10",
+			"endTime" : "15:34",
+			"podcast" : "99% Invisible",
+			"device" : "Computer",
+			"mode" : "Headphones",
+			"activity" : "Driving",
+			"location" : "Local Driving"
+		},
+		{
+			"date" : "2016-03-12",
+			"startTime" : "18:03",
+			"endTime" : "18:24",
+			"podcast" : "99% Invisible",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Local Driving"
+		},
+		{
+			"date" : "2016-03-12",
+			"startTime" : "19:05",
+			"endTime" : "19:22",
+			"podcast" : "Planet Money",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Local Driving"
+		},
+		{
+			"date" : "2016-03-12",
+			"startTime" : "19:22",
+			"endTime" : "19:42",
+			"podcast" : "Planet Money",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Local Driving"
+		},
+		{
+			"date" : "2016-03-13",
+			"startTime" : "13:36",
+			"endTime" : "14:20",
+			"podcast" : "What's the Point",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Highway Driving"
+		},
+		{
+			"date" : "2016-03-13",
+			"startTime" : "14:20",
+			"endTime" : "14:56",
+			"podcast" : "Traction",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Highway Driving"
+		},
+		{
+			"date" : "2016-03-13",
+			"startTime" : "17:56",
+			"endTime" : "18:45",
+			"podcast" : "Serial",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Highway Driving"
+		},
+		{
+			"date" : "2016-03-13",
+			"startTime" : "21:20",
+			"endTime" : "21:53",
+			"podcast" : "Reply All",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Local Driving"
+		},
+		{
+			"date" : "2016-03-14",
+			"startTime" : "1:29",
+			"endTime" : "2:10",
+			"podcast" : "Radiolab",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Working",
+			"location" : "Home"
+		},
+		{
+			"date" : "2016-03-14",
+			"startTime" : "9:06",
+			"endTime" : "9:52",
+			"podcast" : "Traction",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Highway Driving"
+		},
+		{
+			"date" : "2016-03-14",
+			"startTime" : "9:52",
+			"endTime" : "10:28",
+			"podcast" : "Radiolab",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Highway Driving"
+		},
+		{
+			"date" : "2016-03-14",
+			"startTime" : "13:42",
+			"endTime" : "14:49",
+			"podcast" : "Adam Carolla Show",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Highway Driving"
+		},
+		{
+			"date" : "2016-03-14",
+			"startTime" : "18:21",
+			"endTime" : "19:45",
+			"podcast" : "Adam Carolla Show",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Gym"
+		},
+		{
+			"date" : "2016-03-15",
+			"startTime" : "1:21",
+			"endTime" : "2:12",
+			"podcast" : "Hot Takedown",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Home"
+		},
+		{
+			"date" : "2016-03-15",
+			"startTime" : "11:35",
+			"endTime" : "12:05",
+			"podcast" : "Adam Carolla Show",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Local Driving"
+		},
+		{
+			"date" : "2016-03-15",
+			"startTime" : "19:07",
+			"endTime" : "20:25",
+			"podcast" : "Adam Carolla Show",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Gym"
+		},
+		{
+			"date" : "2016-03-16",
+			"startTime" : "1:45",
+			"endTime" : "2:10",
+			"podcast" : "Adam Carolla Show",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Working",
+			"location" : "Home"
+		},
+		{
+			"date" : "2016-03-16",
+			"startTime" : "2:10",
+			"endTime" : "2:28",
+			"podcast" : "99% Invisible",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Working",
+			"location" : "Home"
+		},
+		{
+			"date" : "2016-03-16",
+			"startTime" : "11:55",
+			"endTime" : "12:15",
+			"podcast" : "Adam Carolla Show",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Local Driving"
+		},
+		{
+			"date" : "2016-03-16",
+			"startTime" : "14:24",
+			"endTime" : "15:56",
+			"podcast" : "Adam Carolla Show",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Highway Driving"
+		},
+		{
+			"date" : "2016-03-16",
+			"startTime" : "16:18",
+			"endTime" : "16:36",
+			"podcast" : "Adam Carolla Show",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Highway Driving"
+		},
+		{
+			"date" : "2016-03-16",
+			"startTime" : "16:36",
+			"endTime" : "18:14",
+			"podcast" : "Adam Carolla Show",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Highway Driving"
+		},
+		{
+			"date" : "2016-03-16",
+			"startTime" : "18:40",
+			"endTime" : "19:28",
+			"podcast" : "Tim Ferriss Show",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Highway Driving"
+		},
+		{
+			"date" : "2016-03-16",
+			"startTime" : "19:28",
+			"endTime" : "21:22",
+			"podcast" : "Tim Ferriss Show",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Highway Driving"
+		},
+		{
+			"date" : "2016-03-17",
+			"startTime" : "18:20",
+			"endTime" : "19:10",
+			"podcast" : "Adam Carolla Show",
+			"device" : "iPhone",
+			"mode" : "Speakers",
+			"activity" : "Driving",
+			"location" : "Gym"
+		}
+	]
+}
+
+/*
+
+{
+	"date" : ,
+	"startTime" : ,
+	"endTime" : ,
+	"podcast" : ,
+	"device" : ,
+	"mode" : ,
+	"activity" : ,
+	"location" : 
+}
+
+*/

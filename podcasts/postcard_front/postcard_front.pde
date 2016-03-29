@@ -67,7 +67,7 @@ void setup() {
   
   // Fonts
   
-  titleFont = createFont("Roboto-Bold", 28);
+  titleFont = createFont("Roboto-Bold", 16);
   subtitleFont = createFont("Roboto-Regular", 16);
   bodyFont = createFont("Roboto-Regular", 12);
   
@@ -313,12 +313,12 @@ void reportData(){
   }
   
   // Title and major labels
-  
-  /*textAlign(CENTER, TOP);
+  /*
+  textAlign(CENTER, TOP);
   
   textFont(titleFont);
   fill(gray60);
-  //text("FiveThirtyEight x Dear Data: A Week of Podcasts", width/2, margin-10);
+  text("FiveThirtyEight x Dear Data: A Week of Podcasts", width/2, margin);
   
   textFont(subtitleFont);
   
@@ -332,54 +332,26 @@ void reportData(){
   text("Local Driving", canvasEndX - margin, canvasStartY + margin);
   
   textAlign(RIGHT, BOTTOM);
-  text("Highway Driving", canvasEndX - margin, canvasEndY - margin);*/
+  text("Highway Driving", canvasEndX - margin, canvasEndY - margin);
   
   // Y-axis labels
   
-  /*for (int i = min(dates); i <= max(dates); i++) {
+  for (int i = min(dates); i <= max(dates); i++) {
     
-      float x = map(4*60, dayStart, dayEnd, canvasStartX, canvasEndX);
-      float y =  map(i, min(dates)-1, max(dates)+1, canvasStartY, canvasEndY)-2;
+      float x = map(6*60, dayStart, dayEnd, canvasStartX, canvasEndX);
+      float y =  map(i, min(dates)-1, max(dates)+1, canvasStartY, canvasEndY)-14;
       
-      textAlign(LEFT, CENTER);
+      textAlign(CENTER, CENTER);
       
       textFont(bodyFont);
       fill(gray50);
-      if ( i - min(dates) == 0 ) {
-      
-        text("Friday 3/" + i, x, y);
-        
-      } else if ( i - min(dates) == 1 ) {
-      
-        text("Saturday 3/" + i, x, y);
-        
-      } else if ( i - min(dates) == 2 ) {
-        
-        text("Sunday 3/" + i, x, y);
-        
-      } else if ( i - min(dates) == 3 ) {
-        
-        text("Monday 3/" + i, x, y);
-        
-      } else if ( i - min(dates) == 4 ) {
-        
-        text("Tuesday 3/" + i, x, y);
-        
-      } else if ( i - min(dates) == 5 ) {
-        
-        text("Wednesday 3/" + i, x, y);
-        
-      } else if ( i - min(dates) == 6 ) {
-        
-        text("Thursday 3/" + i, x, y);
-        
-      }
+      text("3/" + i, x, y);
     
-  }*/
+  }
   
   // X-axis labels
   
-  /*for (int i = dayStart + 6*60; i <= dayEnd - 6*60; i+= 2*60) {
+  for (int i = dayStart + 6*60; i <= dayEnd - 6*60; i+= 2*60) {
     
     float x = map(i, dayStart, dayEnd, canvasStartX, canvasEndX);
     float y = canvasEndY-margin;
@@ -390,26 +362,11 @@ void reportData(){
     fill(gray50);
     text(i/60 + ":00", x, y);
     
-  }*/
-  
-  // Footer bar
-  
-  /*fill(gray60);
-  rectMode(CORNERS);
-  noStroke();
-  rect(0, height, width, height-(16+padding*2));
-  
-  textFont(bodyFont);
-  fill(gray15);
-  textAlign(LEFT, BOTTOM);
-  text("Benjamin D. Harvatine (@bdharva)", margin, height-padding);
-  
-  textAlign(RIGHT, BOTTOM);
-  text("Data from March 11 to March 17, 2016", width-margin, height-padding);*/
+  }
   
   // Legend
   
-  /*float x0 = map(0*60, dayStart, dayEnd, canvasStartX, canvasEndX)+7;
+  float x0 = map(0*60, dayStart, dayEnd, canvasStartX, canvasEndX)+7;
   float y0 = height - (30);
   float xStart = 0;
   float xEnd = 0;
@@ -487,6 +444,6 @@ void reportData(){
     text(casts[i], x0+xStart+padding, y0+yStart+padding);
     
     xStart = xStart + nameWidth + 3*padding;
-  }*/
-  
+  }
+  */
 }

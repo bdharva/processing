@@ -157,7 +157,7 @@ void reportData(){
     
   }
   
-  background(gray80);
+  background(gray10);
   
   // X-axis gridlines
   
@@ -167,9 +167,9 @@ void reportData(){
       
       float x = map(i, dayStart, dayEnd, canvasStartX, canvasEndX);
       float y =  map(j, min(dates)-1, max(dates)+1, canvasEndY, canvasStartY);
-      int size = 10;
+      int size = 5;
       
-      stroke(gray60);
+      stroke(gray20);
       strokeWeight(1);
       
       line(x, y-size, x, y+size);
@@ -183,21 +183,13 @@ void reportData(){
   for (int i = min(dates)-1; i <= max(dates)+1; i++) {
     
       float x1 = map(dayStart, dayStart, dayEnd, canvasStartX, canvasEndX);
-      float x2 = map(sunStart, dayStart, dayEnd, canvasStartX, canvasEndX);
-      float x3 = map(sunEnd, dayStart, dayEnd, canvasStartX, canvasEndX);
-      float x4 = map(dayEnd, dayStart, dayEnd, canvasStartX, canvasEndX);
+      float x2 = map(dayEnd, dayStart, dayEnd, canvasStartX, canvasEndX);
       float y =  map(i, min(dates)-1, max(dates)+1, canvasEndY, canvasStartY);
-      int size = 4;
       
-      stroke(gray60);
+      stroke(gray20);
       strokeWeight(2);
       
       line(x1, y, x2, y);
-      line(x3, y, x4, y);
-      
-      stroke(gray60);
-      
-      line(x2, y, x3, y);
     
   }
   
